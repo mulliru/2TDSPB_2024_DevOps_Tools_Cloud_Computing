@@ -31,6 +31,14 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 - **Nginx** como proxy reverso
 - **Microsoft Azure** para provisionamento da máquina virtual
 
+## Como acessar a API pela URL do seu navegador
+- Digite no navegador o seguinte: http://4.228.226.103/data
+
+Ela retornará a seguinte tela:
+![alt text](image.png)
+
+
+
 ## Estrutura de Pastas
 
 ```plaintext
@@ -44,6 +52,7 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 │   ├── docker-compose.yml    # Configuração do Docker Compose
 └── README.md                 # Documentação do projeto
 
-_____
+```
+
 Prints do projeto:
 
