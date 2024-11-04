@@ -33,7 +33,7 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
-      - "80:80"  # Exponha o Nginx na porta 80
+      - "80:80"  
     depends_on:
       - api
     networks:
