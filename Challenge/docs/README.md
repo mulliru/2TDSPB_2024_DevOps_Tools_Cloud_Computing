@@ -1,4 +1,4 @@
-b# Projeto DevOps Challenge - Odontoprev
+# Projeto DevOps Challenge - Odontoprev
 
 Este projeto é parte do desafio DevOps e utiliza uma API desenvolvida em Python para manipulação de dados, utilizando Flask, MySQL, Docker e Nginx. O projeto foi configurado para deployment em uma máquina virtual no Azure com suporte a Docker Compose.
 
@@ -36,7 +36,6 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 
  ## Ela retornará a seguinte tela:
 ![Print da tela](image-2.png)
-
 <br>No vídeo foi mostrado como fizemos a inserção de dados na API, incluimos o integrande Pedro Luiz
 
 
