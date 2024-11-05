@@ -1,4 +1,4 @@
-# Projeto DevOps Challenge - Odontoprev
+b# Projeto DevOps Challenge - Odontoprev
 
 Este projeto é parte do desafio DevOps e utiliza uma API desenvolvida em Python para manipulação de dados, utilizando Flask, MySQL, Docker e Nginx. O projeto foi configurado para deployment em uma máquina virtual no Azure com suporte a Docker Compose.
 
@@ -12,12 +12,10 @@ Este projeto é parte do desafio DevOps e utiliza uma API desenvolvida em Python
 
 1. [Descrição do Projeto](#descrição-do-projeto)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. [Estrutura de Pastas](#estrutura-de-pastas)
-4. [Configuração do Ambiente](#configuração-do-ambiente)
-5. [Instalação e Execução](#instalação-e-execução)
-6. [Endpoints da API](#endpoints-da-api)
-7. [Considerações de Segurança](#considerações-de-segurança)
-8. [Licença](#licença)
+3. [Como Acessar a API](#como-acessar-a-api-pela-url-do-seu-navegador)
+4. [Estrutura de Pastas](#estrutura-de-pastas)
+5. [Link do Vídeo](#links-importantes)
+
 
 ## Descrição do Projeto
 
@@ -33,13 +31,15 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 
 ## Como acessar a API pela URL do seu navegador
 - Digite no navegador o seguinte: http://4.228.226.103/data
-
-Ela retornará a seguinte tela:
-![alt text](image.png)
+> ⚠️ **Alerta**: Existe a possibilidade da URL não ser encontrada devido à dependência dos créditos da Azure para manter a VM ativa.<br>
 
 
+ ## Ela retornará a seguinte tela:
+![Print da tela](image-2.png)
+No vídeo foi mostrado como fizemos a inserção de dados na API, incluimos o integrande Pedro Luiz
 
-## Estrutura de Pastas
+
+**Estrutura de Pastas**
 
 ```plaintext
 .
@@ -54,5 +54,5 @@ Ela retornará a seguinte tela:
 
 ```
 
-Prints do projeto:
-
+## Links Importantes:
+https://www.youtube.com/watch?v=emLxTesj2Zw
