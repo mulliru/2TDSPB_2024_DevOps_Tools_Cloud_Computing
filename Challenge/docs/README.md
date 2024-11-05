@@ -36,7 +36,8 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 
  ## Ela retornará a seguinte tela:
 ![Print da tela](image-2.png)
-No vídeo foi mostrado como fizemos a inserção de dados na API, incluimos o integrande Pedro Luiz
+
+<br>No vídeo foi mostrado como fizemos a inserção de dados na API, incluimos o integrande Pedro Luiz
 
 
 **Estrutura de Pastas**
