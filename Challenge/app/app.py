@@ -20,7 +20,7 @@ def connect_db():
         print(f"Error: {err}")
         return None
 
-
+# Endpoint GET para obter todos os registros
 @app.route('/data', methods=['GET'])
 def get_data():
     conn = connect_db()
@@ -31,6 +31,22 @@ def get_data():
     conn.close()
     return jsonify(result)
 
+# Endpoint GET para obter um registro específico por ID
+@app.route('/data/<int:id>', methods=['GET'])
+def get_data_by_id(id):
+    conn = connect_db()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT * FROM dados WHERE id = %s", (id,))
+    result = cursor.fetchone()
+    cursor.close()
+    conn.close()
+    
+    if result:
+        return jsonify(result)
+    else:
+        return jsonify({'error': 'Data not found'}), 404
+
+# Endpoint POST para adicionar um novo registro
 @app.route('/data', methods=['POST'])
 def add_data():
     data = request.get_json()
@@ -43,6 +59,7 @@ def add_data():
     conn.close()
     return jsonify({'message': 'Data added successfully'}), 201
 
+# Endpoint PUT para atualizar um registro existente por ID
 @app.route('/data/<int:id>', methods=['PUT'])
 def update_data(id):
     data = request.get_json()
@@ -55,6 +72,7 @@ def update_data(id):
     conn.close()
     return jsonify({'message': 'Data updated successfully'})
 
+# Endpoint DELETE para remover um registro por ID
 @app.route('/data/<int:id>', methods=['DELETE'])
 def delete_data(id):
     conn = connect_db()
