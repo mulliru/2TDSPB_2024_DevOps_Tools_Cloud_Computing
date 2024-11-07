@@ -35,7 +35,7 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 
 
  ## Ela retornará a seguinte tela:
-![Print da tela](image-2.png)
+![Print da tela](ImagensReadme//image-2.png)
 <br>No vídeo foi mostrado como fizemos a inserção de dados na API, incluimos o integrande Pedro Luiz
 
 
@@ -50,8 +50,10 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 ├── docker/
 │   ├── Dockerfile            # Dockerfile para a API
 │   ├── docker-compose.yml    # Configuração do Docker Compose
-└── README.md                 # Documentação do projeto
-
+├── docs/
+│   ├── README.md                 # Documentação do projeto
+│   ├── evidencias/                 # Pasta com os prints
+└── 
 ```
 
 ## Links Importantes:
