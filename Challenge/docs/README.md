@@ -55,4 +55,4 @@ Este projeto consiste em uma API REST que permite o gerenciamento de informaçõ
 ```
 
 ## Links Importantes:
-https://www.youtube.com/watch?v=emLxTesj2Zw
+https://www.youtube.com/watch?v=DpGH0B38R28
